@@ -208,7 +208,7 @@ int mc_move_velocity(int velocity, int acceleration,
 {
     unsigned int old_epl_cnt = uiCnt_g;
 
-	printf("function %s line %d\n", __FUNCTION__, __LINE__);
+    printf("function %s line %d\n", __FUNCTION__, __LINE__);
 
     if(AppProcessImageOut_g.CN2_M00_MC_Status1_ErrorCode != 0)
         return AppProcessImageOut_g.CN2_M00_MC_Status1_ErrorCode;
